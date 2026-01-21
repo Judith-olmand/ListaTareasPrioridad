@@ -24,6 +24,7 @@ public class ListaTareasPrioridad {
                 sc.nextLine();
             }catch (InputMismatchException e){
                 System.out.println("\uD83D\uDDF6 Elija una opción correcta");
+                opcion = -1;
                 sc.nextLine();
             }
 
